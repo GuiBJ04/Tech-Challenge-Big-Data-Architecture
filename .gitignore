@@ -1,0 +1,18 @@
+# Ignorar ambientes virtuais comuns
+venv/
+env/
+.venv/
+.env/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar banco de dados
+scrape_cache.db
+user_cache.db
